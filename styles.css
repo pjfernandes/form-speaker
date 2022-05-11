@@ -50,3 +50,9 @@ button:hover {
   cursor: pointer;
   background-color: rgb(106, 30, 176);
 }
+
+input:required:invalid {
+  border: dashed 1px;
+  border-color: red;
+  background-image: linear-gradient(to left, pink, blue);
+}
